@@ -1,193 +1,310 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+<html><head><style>
+ body  {
+
+  background-image: url("https://media.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif");
+  background-color: #cccccc;
+ }
+</style>
+
+ <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<div class="menu" style="position: fixed; top: 0px;">
+ <a href="#about">About Me</a>
+ <a href="#photos">My Photos</a>
+ <a href="#playlist">My Playlist</a>
+ <a href="#like">Like</a>
+ <a href="#qrcoder">QR code</a>
+ <a href="#spa">Q&amp;A</a>
+ <a href="#contact">Contact Me</a>
 </div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
+<script>
+ // When the user scrolls down 20px from the top of the document, slide down the navbar
+ window.onscroll = function() {scrollFunction()};
 
+ function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+   document.getElementById("navbar").style.top = "0";
+  } else {
+   document.getElementById("navbar").style.top = "-50px";
+  }
+ }
+</script>
+
+<hr>
+<section id="about" class="section">
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2><span>About Me</span></h2>
+ <br>
+ <br>
+ <div style="color:white; text-align:center; font-family:courier,arial,helvetica;; font-size:140%; font-weight: normal;">
+  <p> Hi! I'm Adi , 25 years old from Beer Sheva/Tel Aviv/Haifa - depends when you're asking.
+   <br>
+   I am a third year student in the Information Systems Engineering department at BGU.
+   <br>
+   My hobbies are hang out with my friends, cooking, traveling and watching TV series.
+   <br>
+   my fav sport is home workout - not only at quarantine:)
+   <br>
+   My expectation from this course are very high and I would like to learn new languages, and to know much
+   <br>
+   better about web developing.
+  </p>
+ </div>
+ <br>
+ <br>
+</section>
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
+ <br>
+ <br>
+ <br>
+ <h2><span>My Photos</span></h2>
+ <br>
+ <br>
+ <br>
+ <br>
+ <img src="im5.jpg" width="600" height="500">
+ <img src="im2.jpg" width="500" height="500">
+ <img src="im7.jpg" width="500" height="500">
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 </section>
 
 <section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2><span>My Playlist</span></h2>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/wyUaurKZEN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/WDZJPJV__bQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
 </section>
 
 <section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+ <br>
+ <br>
+ <br>
+ <br>
+ <h2><span>Give a Like</span></h2>
+ <h4 style="color: white;font-size:160%; font-weight: normal;"; align="center" > Did you liked me? its for free! </h4>
+ <div align="center"><iframe src=
+                                     "https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-noashabtay%2F&amp;width=140&amp;layout=button_count&amp;action=like&amp;size=large&amp;share=true&amp;height=46&amp;appId" width="140" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media">
+ </iframe></div>
+ <p style="color: white ;font-size:160%; font-weight: normal;" align="center"> Hope to see you soon</p>
 </section>
-
 <section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+ <br>
+ <br>
+ <br>
+ <br>
+ <hqr><span>Scan My Code</span></hqr>
+ <br>
+ <img src="qr-code.png" width="100" height="300" class="300">
+ <br>
+ <br>
 </section>
 
 <section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
+ <br>
+ <br>
+ <br>
+ <h2><span>Answers</span></h2>
+ <div style="color:white; text-align:center; font-family:courier,arial,helvetica;; font-size:140%; font-weight: normal;">
+  <p>
+   <u>Q1: Three main differences between web1, web2 and web3:</u> </p>
+  <p>
+   in web 1.0 the information is static, basic design, not interactive
+  </p>
+  <p>
+   in web 2.0 the internet is more dynamic, Collaborative and social
+  </p>
+  <P>        in web 3.0 the information is being processed by NLP and AI,
+   <br>
+   the computer understands the human needs and Thoughts
+  </P>
 
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <p>
+   <u>Q2:Results for the query "Medicines side effects" will be:</u> </p>
+  <p>
+  <p>
+   On web 1  only the websites that includes exactly the phrase "medical side effects"
+   will appeared
+
+  </p>
+
+
+
+ </div>
 </section>
 
 
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
-</body>
-</html>
+
+
+<!--    <table width="100%" cellspacing="30">-->
+
+ <!--        <tbody><tr>-->
+ <!--            <td><h1 style="color: white" align="center">Answer of question 1:</h1></td>-->
+ <!--            <td><h1 style="color: white" align="center">Answer of question 2:</h1></td>-->
+ <!--        </tr>-->
+
+ <!--        <tr>-->
+
+ <!--            <td valign="top">-->
+
+ <!--                <table border="1" cellpadding="10" cellspacing="5" bordercolor="white" style="color: white">-->
+ <!--                    <tbody><tr style="color: white">-->
+ <!--                        <th>WEB1</th>-->
+ <!--                        <th>WEB2</th>-->
+ <!--                        <th>WEB3</th>-->
+ <!--                    </tr>-->
+
+ <!--                    <tr style="color: white">-->
+ <!--                        <td>Search specific url</td>-->
+ <!--                        <td>Search in web pages in search engine with set before tags</td>-->
+ <!--                        <td>Enables semantic search, AI and the web learning what you want and delivering you a personalized web experience </td>-->
+ <!--                    </tr>-->
+
+
+ <!--                    <tr>-->
+ <!--                        <td>Read only web - companies publish content that people consume</td>-->
+ <!--                        <td>Read &amp; write web - people publish content that other people can consume</td>-->
+ <!--                        <td>Read , write &amp; execute web - people build application that other people can interact with</td>-->
+ <!--                    </tr>-->
+
+ <!--                    <tr style="color: white">-->
+ <!--                        <td>Static web page per person.</td>-->
+ <!--                        <td colspan="2">Dynamic web - person can change the site and other person will see the page differently.</td>-->
+ <!--                    </tr>-->
+
+ <!--                    </tbody></table>-->
+
+ <!--            </td>-->
+
+ <!--            <td valign="top">-->
+
+ <!--                <table border="1" cellpadding="10" cellspacing="5" bordercolor="white" style="color: white">-->
+ <!--                    <tbody><tr>-->
+ <!--                        <th colspan="3">searching query "drugs side effect"</th>-->
+ <!--                    </tr>-->
+
+ <!--                    <tr style="color: white">-->
+ <!--                        <th>WEB1</th>-->
+ <!--                        <th>WEB2</th>-->
+ <!--                        <th>WEB3</th>-->
+ <!--                    </tr>-->
+
+ <!--                    <tr style="color: white">-->
+ <!--                        <td>We need to write specific url of site talking about drugs side effect</td>-->
+ <!--                        <td>We can search in search engine and get result of web pages that have tags of the words in the query "drugs side effect"</td>-->
+ <!--                        <td>We can search in search engine the query "drugs side effect" and get result of web pages with the best similarity to the query topic - the best result-->
+ <!--                            by  using information processing and analysis capabilities and with semantic context </td>-->
+ <!--                    </tr>-->
+ <!--                    </tbody></table>-->
+
+ <!--            </td>-->
+
+ <!--        </tr>-->
+ <!--        </tbody></table>-->
+ <!--    <br>-->
+ <!--</section>-->
+
+ <section id="contact" class="section">
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2><span>Contact Me</span></h2>
+  <br>
+  <div align="center">
+   <div class="container1">
+    <form action="mailto: adiflint27@gmail.com  " method="post" enctype="text/plain">
+
+     <label for="fname">First Name</label>
+     <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+     <label for="lname">Last Name</label>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+     <label for="country">Country</label>
+     <select id="country" name="country">
+      <option value="Israel">Israel</option>
+      <option value="other">Other</option>
+     </select>
+
+     <label for="subject">Subject</label>
+     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+     <input type="submit" value="send" formaction="mailto:irisdrei@post.bgu.ac.il">
+
+    </form>
+   </div>
+   <script type="text/javascript">
+    $(function(){
+     $("#nav a").click(function(e){
+      e.preventDefault();
+      $('html,body').scrollTo(this.hash,this.hash);
+     });
+    });
+   </script>
+   <!--        <form action="mailto:noashab@post.bgu.ac.il" method="post" enctype="text/plain">-->
+   <!--            <p style="color: white">Name:</p>-->
+   <!--            <input type="text" placeholder="enter your name.." name="name" required="" style="width: 600px">-->
+   <!--            <p style="color: white">E-mail:</p>-->
+   <!--            <input type="text" placeholder="enter your mail.." name="mail" required="" style="width: 600px">-->
+   <!--            <p style="color: white;"> Comment: </p>-->
+   <!--            <textarea type="text" placeholder="comment" name="comment" required="" style="height:150px; width: 600px"></textarea><br>-->
+   <!--            <p style="color: white"><strong>choose your feelings</strong>-->
+   <!--            </p><div class="custom-select" style="width:70px;">-->
+   <!--            <select name="emoji" style="height:44px; ">-->
+   <!--                <option selected="">🤓-->
+   <!--                </option><option>😀-->
+   <!--            </option><option>😁-->
+   <!--            </option><option>😂-->
+   <!--            </option><option>😃-->
+   <!--            </option><option>😄-->
+   <!--            </option><option>😅-->
+   <!--            </option><option>😆-->
+   <!--            </option><option>😇-->
+   <!--            </option><option>😈-->
+   <!--            </option><option>😉-->
+   <!--            </option><option>😊-->
+   <!--            </option><option>😋-->
+   <!--            </option><option>😌-->
+   <!--            </option><option>😍-->
+   <!--            </option><option>😍-->
+   <!--            </option><option>😎-->
+   <!--            </option><option>😏-->
+   <!--            </option><option>😐-->
+   <!--            </option></select>-->
+   <!--        </div><p></p>-->
+   <!--            <input type="submit" value="Send">-->
+   <!--            <input type="reset" value="Reset">-->
+   <!--        </form>-->
+
+  </div>
+  <br>
+  <br>
+  <br>
+ </section>
+
+</section>
+
+</body></html>
